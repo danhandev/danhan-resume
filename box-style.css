@@ -1,8 +1,14 @@
 .mainbox {
     padding: 30px;
     margin: 30px;
+    /*가운데 정렬*/
     margin-right: auto;
     margin-left: auto;
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.float-wrap {
+    /*float 요소들을 묶어 다른 요소에 영향을 주지 않도록*/
+    overflow: hidden;
 }

@@ -2,3 +2,33 @@
     font-size: 10px;
     line-height: 16px;
 }
+
+.float-wrap {
+    /*float 요소들을 묶어 다른 요소에 영향을 주지 않도록*/
+    overflow: hidden;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    /*period-text와 한 줄에 배치하기 위한 코드, 오른쪽 정렬*/
+    float: left;
+}
+
+.period-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color:#282828;
+    padding-left:16px;
+}
