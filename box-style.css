@@ -1,4 +1,29 @@
-.mainbox {
+body, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size:36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size:20px;
+    color:#282828;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+.main-box {
+    width: 610px;
     padding: 30px;
     margin: 30px;
     /*가운데 정렬*/
@@ -8,7 +33,10 @@
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.float-wrap {
-    /*float 요소들을 묶어 다른 요소에 영향을 주지 않도록*/
-    overflow: hidden;
+.title-box {
+    text-align: right;
+}
+
+section {
+    margin-bottom:24px;
 }
